@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* navbar */
+nav{
+    background:#ffffff;
+    padding:18px 0;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:0 auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap: 35px;
+    
+}
+a{
+  text-decoration: none;
+}
+
+.btn{
+    background:#2F5EFF;
+    color:#fff;
+    border:none;
+    padding:14px 28px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:15px;
+    font-weight:600;
+  
+}
+
+.btn:hover{
+    background:#1d4df0;
+}
