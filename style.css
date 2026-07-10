@@ -284,8 +284,10 @@ a {
 .box-parent{
   margin: 60px auto;
   text-align: center;
+ 
 
 }
+
 .box-parent h1 {
   padding-bottom: 30px;
   font-size: 58px;
@@ -300,13 +302,12 @@ a {
 }
 .box-container .box {
   font-size: 16px;
-  border: 1px solid rgb(236, 236, 236);
+  border: 1px solid rgb(160, 158, 158);
   padding: 30px;
   margin-top: 20px;
   text-align: left;
   border-radius: 14px;
-
- 
+  
 }
 .box h1 {
   font-size: 48px;
@@ -379,3 +380,55 @@ button{
   color: #0D1B2A;
 }
 /* pricing section end */
+
+/* footer section start */
+.main{
+  background-color: #0D1B2A;
+}
+.footer-right{
+  color: #ffffff;
+}
+.footer-right p {
+  padding-bottom: 12px;
+  color: #888888;
+}
+.main .main-footer{
+display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding-bottom:18px;
+  margin-top: 28px;
+  padding-top: 18px;
+}
+.media li {
+  list-style: none;
+  padding-bottom: 8px;
+}
+.media li a {
+  color: #2F5EFF;
+}
+.akib{
+  padding-bottom: 100px;
+}
+.last{
+margin-top: 10px;
+border-top: 2px solid rgb(82, 81, 81);
+padding: 20px;
+
+  display: flex;
+  justify-content: center;
+}
+.last p {
+  color: #b1b1b1;
+}
+.box .document {
+  margin-bottom: 10px;
+border-bottom: 2px solid rgb(218, 217, 217);
+}
+.box .pre-document {
+  margin-bottom: 10px;
+border-bottom: 2px solid rgb(94, 93, 93);
+}
